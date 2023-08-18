@@ -68,28 +68,3 @@ try {
   console.error("что-то не так! ");
 }
 
-// <figure>
-// <img src="img/person.svg" alt="Elephant at sunset" />
-// <h2>Имя: ${user.name}</h2>
-// <h2>Ник: ${user.username}</h2>
-// <h2>email: ${user.email}</h2>
-// <h2>Телефон: ${user.phone}</h2>
-// <h2>Сайт: ${user.website}</h2>
-// </figure>
-//   `
-
-// for (let index = 1; index <= dataLength; index++) {
-
-//   let key = JSON.stringify(index);
-//   const user = JSON.parse(localStorage.getItem(key));
-//   div.insertAdjacentHTML(
-//     'beforeend',
-//   `
-//   <figure>
-//   <img src="/media/cc0-images/elephant-660-480.jpg" alt="Elephant at sunset" />
-//   <figcaption>An elephant at sunset</figcaption>
-// </figure>
-
-//   `);
-
-// };
